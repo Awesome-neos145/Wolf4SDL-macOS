@@ -38,11 +38,7 @@ After all that, double click the app bundle to start playing!
 
 Load up your Luger, kill some Nazis, and Escape Wolfenstein!
 
-# Issues
-The original Wolf4SDL fork this project is based off of is a little... janky, per-se. It usually builds fine under Windows targets through Dev-C++ or Code::Blocks, but it's been getting pretty hard to compile those as KS-Presto makes more destructive changes to Wolf4SDL.
-
-There are more issues present under Linux/macOS than under Windows, namely the statusbar items not drawing correctly. This will be fixed in a later update to this fork.
-
 # Credits
 KS-Presto for his original Wolf4SDL2 fork.
+
 SDL
