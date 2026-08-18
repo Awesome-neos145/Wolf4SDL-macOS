@@ -377,19 +377,23 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
 				DEAD_CODE_STRIPPING = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Wolf4SDL;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.awes145.wolf4sdl;
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awes145.wolf4sdl2;
 				PRODUCT_NAME = Wolf4SDL;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
@@ -400,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEAD_CODE_STRIPPING = YES;
 				GCC_AUTO_VECTORIZATION = YES;
 				GCC_ENABLE_SSE3_EXTENSIONS = YES;
@@ -407,15 +412,18 @@
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Wolf4SDL;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 2.1;
 				OTHER_CFLAGS = "-fast";
 				OTHER_CPLUSPLUSFLAGS = "-fast";
-				PRODUCT_BUNDLE_IDENTIFIER = com.awes145.wolf4sdl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awes145.wolf4sdl2;
 				PRODUCT_NAME = Wolf4SDL;
 				SDKROOT = macosx;
 				VALID_ARCHS = "x86_64 x86_64h arm64 arm64e";
@@ -472,6 +480,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				VALID_ARCHS = "x86_64 x86_64h arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -527,7 +536,7 @@
 				LLVM_LTO = YES;
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				VALID_ARCHS = "i386 x86_64";
+				VALID_ARCHS = "x86_64 x86_64h arm64 arm64e";
 			};
 			name = Release;
 		};

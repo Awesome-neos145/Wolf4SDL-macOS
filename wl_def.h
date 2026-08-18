@@ -9,6 +9,8 @@
 #include <assert.h>
 #include <fcntl.h>
 #include <math.h>
+// include int types as a fix for the statusbar switch to snprintf
+#include <inttypes.h>
 #include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>

@@ -368,7 +368,8 @@ static void LatchNumber (int x, int y, unsigned width, int32_t number)
     unsigned length,c;
     char    str[20];
 
-    ltoa (number,str,10);
+    // use snprintf instead of the original itoa to un-fuck the status bar
+    snprintf(str, sizeof(str), "%" PRId32, number);
 
     length = (unsigned) strlen (str);
 

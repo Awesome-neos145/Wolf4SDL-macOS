@@ -961,7 +961,7 @@ void DrawPlayScreen (void)
     DrawScore ();
 }
 
-void ShowActStatus()
+void ShowActStatus(void)
 {
     // Draw status bar without borders
     byte *source = grsegs[STATUSBARPIC];
