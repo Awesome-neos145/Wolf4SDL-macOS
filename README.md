@@ -38,6 +38,22 @@ After all that, double click the app bundle to start playing!
 
 Load up your Luger, kill some Nazis, and Escape Wolfenstein!
 
+# Controls
+Controls for the macOS version are as follows:
+| Key | Action |
+| :--- | :--- |
+| Arrows | Move |
+| ^ (control) | Shoot |
+| ⌥ (option) | Strafe |
+| Space | Open Doors/Push Wall |
+| Shift | Run |
+
+# Starting with Arguments
+Open up a terminal window in the directory where Wolf4SDL is stored, and run:
+```
+open -a "Wolf4SDL.app" --args (args here)
+```
+To enable debug mode, add --goobers. Then, while in-game, press ⌥⇧⌫. (Option-Shift-Delete).
 # Credits
 KS-Presto for his original Wolf4SDL2 fork.
 
